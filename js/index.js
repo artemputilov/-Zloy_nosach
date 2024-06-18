@@ -8,7 +8,7 @@ let randomAnimals = ["скотина","кабан","коняга","капиба�
 //Придаём рандом массиву через переменную
 let randomCalling = randomCallings [Math.floor(Math.random()*4)];
 let randomAdjetive = randomAdjetives [Math.floor(Math.random()*4)];
-let randomAnimal = randomAnimals [Math.floor(Math.random()*7)];
+let randomAnimal = randomAnimals [Math.floor(Math.random()*8)];
 
 //Выводим данные
 let randomInsult = ["Ты", randomCalling, randomAdjetive, randomAnimal].join (" ");
